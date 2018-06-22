@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>FCC Survey Form</title>
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    </head>
+    <body>
+        <h1 id="title">Survey Form</h1>
+        <p id="description">Lorem ipsum...</p>
+        <form id="survey-form" action="">
+            <label for="name" id="name-label">Name:     
+            <input type="text" id="name" name="name" placeholder="Enter your first name" required>
+            </label>
+            <br>
+            <label for="email" id="email-label">E-mail: 
+            <input type="email" id="email" name="email" placeholder="Enter your e-mail address" required>    
+            </label>
+            <br>
+            <label for="number" id="number-label">Age: 
+            <input type="number" id="number" name="number" 
+                step="1" min="18" max="65" value="18"
+                placeholder="Enter your age">    
+            </label>
+            <br>
+            <label for="dropdown">Where did you hear about us? 
+                <select id="dropdown" name="dropdown">
+                    <option>Please select</option>
+                    <option>Social Media</option>
+                    <option>Google/Bing/Yahoo Ad</option>
+                    <option>Blog/Newsletter</option>
+                    <option>YouTube</option>
+                    <option>Other</option>
+                </select>
+            </label> 
+            <br>
+            I'd recommend this company to my friends and co-workers...
+            <br>
+            <label for="strongly-disagree">
+                <input type="radio" id="strongly-disagree" name="recommend">Strongly Disagree
+            </label>
+            <label for="disagree">
+                <input type="radio" id="disagree" name="recommend">Disagree
+            </label>
+            <label for="maybe">
+                <input type="radio" id="maybe" name="recommend">Maybe
+            </label>
+            <label for="agree">
+                <input type="radio" id="agree" name="recommend">Agree
+            </label>
+            <label for="strongly-agree">
+                <input type="radio" id="strongly-agree" name="recommend">Strongly Agree
+            </label>
+            <br>
+            Topics i'm interested in (check all that apply): 
+            <br>
+            <label for="ecommerce">
+            <input type="checkbox" id="ecommerce" name="interest" value="ecommerce">E-commerce
+            </label>
+            <br>
+            <label for="ppc">
+            <input type="checkbox" id="ppc" name="interest" value="ppc">Pay-Per-Click (PPC)
+            </label>
+            <br>
+            <label for="seo">
+            <input type="checkbox" id="seo" name="interest" value="seo">Search Engine Optimization (SEO)
+            </label>
+            <br>
+            <label for="email-marketing">
+            <input type="checkbox" id="email-marketing" name="interest" value="email-marketing">Email Marketing
+            </label>
+            <br>
+            <label for="smm">
+            <input type="checkbox" id="smm" name="interest" value="smm">Social Media Marketing (SMM)
+            </label>
+            <br>
+            <label for="analytics">
+            <input type="checkbox" id="analytics" name="interest" value="analytics">Analytics
+            </label>
+            <br>
+            <label for="other-marketing">
+            <input type="checkbox" id="other-marketing" name="interest" value="other-marketing">Other marketing methods (Pinterest, Quora, Youtube, etc.)
+            </label>
+            <br>
+            Comments and feedback:
+            <br>
+            <textarea placeholder="Enter comments"></textarea>
+            <br>
+            <button type="submit">Submit Survey</button>
+        </form>
+    </body>
+</html>
