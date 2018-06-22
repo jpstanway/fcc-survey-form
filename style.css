@@ -1,0 +1,50 @@
+body {
+    font-size: 16px;
+    line-height: 1.5em;
+    background: #1A253C;
+}
+
+#title {
+    color: #fff;
+}
+
+#description {
+    text-align: center;
+}
+
+#survey-form {
+    max-width: 50%;
+    margin: auto;
+}
+
+.header {
+    max-width: 960px;
+    margin: auto;
+    text-align: center;
+}
+
+.logo {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    width: 250px;
+    height: 150px;
+    margin: auto;
+}
+
+.main {
+    background: #f0f0f0;
+    max-width: 960px;
+    margin: auto;
+    padding: 20px;
+}
+
+.footer {
+    max-width: 960px;
+    margin: auto;
+    text-align: center;
+}
+
+.trademark {
+    color: #fff;
+}
