@@ -85,6 +85,7 @@ legend {
     max-width: 960px;
     margin: auto;
     padding: 20px;
+    border-radius: 4px;
 }
 
 #description {
@@ -133,6 +134,7 @@ legend {
     font-family: "Abel", sans-serif;
     background-color: #3c311a;
     border-color: #c9c9c9;
+    border-radius: 4px;
     color: #fff;
 }
 
