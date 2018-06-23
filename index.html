@@ -19,7 +19,7 @@
             <form id="survey-form" action="">
                 <div class="form-field">
                     <div class="label">
-                        <label for="name" id="name-label">Name:</label>  
+                        <label for="name" id="name-label">Name: <span class="required">*</span></label>  
                     </div>
                     <div class="input">
                         <input type="text" id="name" class="main-inputs" name="name" placeholder="Enter your first name" required>
@@ -27,7 +27,7 @@
                 </div>
                 <div class="form-field">
                     <div class="label">
-                        <label for="email" id="email-label">E-mail:</label> 
+                        <label for="email" id="email-label">E-mail: <span class="required">*</span></label> 
                     </div>
                     <div class="input">
                         <input type="email" id="email" class="main-inputs" name="email" placeholder="Enter your e-mail address" required>
@@ -60,7 +60,7 @@
                 </div>       
                 <div class="form-field">
                     <div class="label">
-                        <label>Services i'm interested in (check all that apply):</label>
+                        <label>Services i'm interested in:<br>(check all that apply)</label>
                     </div>
                     <div class="input">
                         <label for="ecommerce">
@@ -108,13 +108,13 @@
                     <fieldset>
                         <legend>I'd recommend this company to my friends and co-workers</legend>
                         <label for="strongly-disagree">
-                            <input type="radio" id="strongly-disagree" name="recommend">Strongly Disagree
+                            <input type="radio" id="strongly-disagree" name="recommend" required>Strongly Disagree
                         </label>
                         <label for="disagree">
                             <input type="radio" id="disagree" name="recommend">Disagree
                         </label>
                         <label for="maybe">
-                            <input type="radio" id="maybe" name="recommend">Maybe
+                            <input type="radio" id="maybe" name="recommend" checked>Maybe
                         </label>
                         <label for="agree">
                             <input type="radio" id="agree" name="recommend">Agree
